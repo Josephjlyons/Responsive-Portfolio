@@ -9,7 +9,7 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./page.css">
 
-    <title>My Portfolio</title>
+    <title>Joseph J Lyons </title>
 </head>
 
 <!-- Nav Bar -->
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="./index.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a> 
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
@@ -44,28 +44,108 @@
     <!-- Portfolio container and images -->
 
     <h1 class="portheader">My Portfolio</h1>
-    <div class="container">
+
+    <div class="container-fluid content-row">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6"> <img class="projectimage" src="https://via.placeholder.com/350x350"
-                    alt=""></div>
+            <div class="card text-center portCard" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/brewDB.png" alt="Card image cap">
+                <div class="card-body ">
+                    <h5 class="card-title">The Draught Picker</h5>
+                    <p class="card-text">Ever been stuck in an unfamiliar area but want to find a brewery near you? Look
+                        no further!
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush ">
+                    <h6>Features</h6>
+                    <li class="list-group-item">Enter a zip code and find a brewery near you</li>
+                    <li class="list-group-item">Receive the name, address, phone number and website </li>
+                    <li class="list-group-item">Map image of the brewery location</li>
+                </ul>
+                <div class="card-body ">
+                    <a href="https://josephjlyons.github.io/DraughtPicker/">Lets find a brewery!</a>
+
+                </div>
+            </div>
+
+            <div class="card text-center portCard" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/dailyplan.png" alt="Card image cap">
+                <div class="card-body ">
+                    <h5 class="card-title ">Daily Planner</h5>
+                    <p class="card-text ">The daily grind gets us all down and with a hectic schedule sometimes things
+                        happen, avoid missing appointments with this easy to use planner!
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush ">
+                    <h6>Features</h6>
+                    <li class="list-group-item">Color coded time blocks for past, present, future</li>
+                    <li class="list-group-item">Store your appointments</li>
+                    
+                </ul>
+                <div class="card-body ">
+                    <a href="https://josephjlyons.github.io/Day-Planner/">Don't forget your next meeting!</a>
+
+                </div>
+            </div>
+
+
+            <div class="card text-center portCard" style="width: 18rem;">
+                <img class="card-img-top" src="./Assets/app Image.png" alt="Card image cap">
+                <div class="card-body ">
+                    <h5 class="card-title ">Weather Dashboard</h5>
+                    <p class="card-text ">Unsure what to wear? Umbrella? Sunscreen? Dont worry about! Get the current weather and the next five days!
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush ">
+                    <h6>Features</h6>
+                    <li class="list-group-item">Search by city</li>
+                    <li class="list-group-item">Up to the minute weather</li>
+                    <li class="list-group-item">Runs off an reliable API </li>
+                </ul>
+                <div class="card-body ">
+                    <a href="https://josephjlyons.github.io/5day-forecast/">Get the Weather</a>
+
+                </div>
+            </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-lg-start footer">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer Content</h5>
 
+                    <p class="text-light">
+                        Thank you for visting my page, feel free to reach out to me in anyway you want!
+                    </p>
+                </div>
 
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <ul class="list-styled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/joseph-lyons-0a2630200/"
+                                class="text-light">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Josephjlyons" class="text-light">Github</a>
+                        </li>
+                        <li>
+                            <a class="text-light">josephjlyons90@gmail.com</a>
+                        </li>
 
-
-
-
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
