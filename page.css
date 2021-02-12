@@ -56,13 +56,13 @@
     float: left;
     border-radius: 10px;
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     
 
 }
 
 .footer {
-
+    background-color: black;
     position: fixed;
     bottom:0px;
     width: 100%;
@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 720px){
     .body{
-        background: black;
+        background-image: url(./Assets/nightsky.jpg)
     }
     }
 
