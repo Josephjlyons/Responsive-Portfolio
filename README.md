@@ -1,11 +1,11 @@
 # Responsive Portfolio
 Browser 
 
-![image of project](./assets/portfolio-browser.png)
+![image of project](./Assets/portfolio-browser.png)
 
 Mobile 
 
-![image of project](./assets/portfolio-mobile.png)
+![image of project](./Assets/portfolio-mobile.png)
 
 ## Application Link
 
