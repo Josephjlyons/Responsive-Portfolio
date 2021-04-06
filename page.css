@@ -1,4 +1,25 @@
-
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+      background: linear-gradient(-45deg, #ff2727, black,black, #ff2727) ;
+      background-size: 400% 400%;
+      animation: gradient 12s ease infinite;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
 /* Nav Bar Style */
 
 .navbar-brand, .nav-link{
@@ -9,13 +30,13 @@
 
 } 
 /* Body and Background image properties */
-.body{
+/* .body{
     background-color: #B0D7FF;
     margin: auto;
     background-image: url("./backgroundimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* About me selfie */
 #imageofme{
@@ -52,7 +73,10 @@
     width: 100%;
     height: 100px;
 }
-
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in;
+}
 .portCard{
     margin-left: auto;
     margin-right: auto;
@@ -60,8 +84,19 @@
     border-radius: 10px;
     position: relative;
     margin-bottom: 100px;
-    
+    background-color: white;
+    padding: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
+.card-title{
+    text-decoration: underline;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.features{
+    background-color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .footer {
@@ -73,11 +108,4 @@
     margin-left: 0;
     margin-right: 0;
  }
-
-@media only screen and (max-width: 720px){
-    .body{
-        /* background-image: url(./Assets/nightsky.jpg) */
-        background: black;
-    }
-    }
 
