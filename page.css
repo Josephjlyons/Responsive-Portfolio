@@ -89,6 +89,14 @@ html, body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+#features{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: underline;
+}
+.card-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .card-title{
     text-decoration: underline;
     font-family: 'IBM Plex Sans', sans-serif;
